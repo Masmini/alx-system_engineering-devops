@@ -1,0 +1,2 @@
+#!/bin/bash
+sort $1 > temp_file && head -n 3 temp_file && rm temp_file
